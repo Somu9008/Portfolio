@@ -1,0 +1,184 @@
+nav {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.47);
+  z-index: 999;
+  width: 100%;
+  /* background-color: black; */
+  color: white;
+  padding: 1.2rem 1rem;
+  /* box-shadow: 2px 2px 8px bisque; */
+}
+
+nav .left-nav h2 {
+  margin: 0;
+}
+
+nav .hamberger {
+  height: 2rem;
+  width: 3rem;
+  background-color: rgb(1, 1, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+  z-index: 999;
+  margin: 0.5rem;
+}
+
+nav .hamberger div {
+  height: 0.3rem;
+  width: 100%;
+  background-color: rgb(253, 248, 248);
+  transition: 0.5s;
+}
+
+nav .wrongOne {
+  transform-origin: 10%;
+  transform: rotate(35deg);
+}
+
+nav .wrongThree {
+  transform-origin: 10%;
+  transform: rotate(-35deg);
+}
+
+nav .wrongTwo {
+  opacity: 0;
+}
+
+nav .right-nav {
+  display: flex;
+  list-style: none;
+  /* border: 1px solid red; */
+  width: 48%;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.right-nav li {
+  cursor: pointer !important;
+}
+
+.right-nav li :hover {
+  text-decoration: underline;
+}
+
+.toggle-menu {
+  /* position: absolute; */
+  right: 0.4rem !important;
+  justify-content: ;
+}
+
+@media (max-width: 1350px) {
+  .right-nav li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav {
+    justify-content: space-evenly;
+  }
+
+  nav .left-nav {
+    width: 30%;
+  }
+
+  nav .left-nav h2 {
+    font-size: 1rem;
+  }
+
+  .right-nav li {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 690px) {
+  nav {
+    padding: 0.8rem 0.5rem;
+  }
+
+  nav .right-nav {
+    width: 60%;
+  }
+
+  nav .right-nav li {
+    font-size: 0.7rem;
+  }
+
+  nav .left-nav h2 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 560px) {
+  nav .left-nav h2 {
+    font-size: 0.7rem;
+  }
+
+  nav .right-nav li {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+  }
+
+  nav .hamberger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+    width: 3rem;
+  }
+  nav .hamberger div {
+    width: 100%;
+    height: 0.3rem;
+    background-color: white;
+    margin-top: 0.2rem;
+  }
+
+  nav .left-nav {
+    width: 50%;
+  }
+
+  nav .left-nav h2 {
+    font-size: 1rem;
+  }
+
+  nav .left-nav h2 {
+    text-align: start;
+  }
+
+  nav .right-nav {
+    position: absolute;
+    top: 0rem;
+    right: -10rem;
+    height: 100vh;
+    width: 10rem;
+    background-color: rgba(0, 0, 0, 0.715);
+    display: flex;
+    z-index: 998;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: 0.5s;
+    padding-top: 5rem;
+    /* justify-content: space-around; */
+  }
+
+  nav .right-nav li {
+    color: rgb(255, 255, 255);
+    margin: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}

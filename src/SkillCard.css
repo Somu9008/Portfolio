@@ -1,0 +1,11 @@
+@media (max-width: 370px) {
+  .skill-img {
+    width: 6rem !important;
+    margin: 0.5rem !important;
+  }
+
+  .skill-img img {
+    height: 4rem !important;
+    width: 4rem !important;
+  }
+}

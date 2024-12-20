@@ -1,0 +1,104 @@
+.hero {
+  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\flow_black-1024x9101.webp");
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-hero {
+  /* border: 1px solid white; */
+  width: 47%;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  line-height: 3.5rem;
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.163);
+  /* box-shadow: 2px 2px 8px white; */
+}
+
+.left-hero h2 {
+  color: rgb(0, 195, 255);
+}
+
+.left-hero p span {
+  color: rgb(21, 224, 112);
+  font-weight: bold;
+}
+
+.right-hero {
+  width: 28%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.right-hero > div {
+  height: 20rem;
+  width: 13rem;
+  border-radius: 50%;
+  /* padding-top: 1rem; */
+  /* border-top: 2px solid rgb(255, 0, 170);
+  border-left: 2px solid rgb(255, 0, 136);
+  box-shadow: 2px 2px 12px rgb(85, 0, 255); */
+  border: 3px solid aliceblue;
+  /* transform: rotate(1deg); */
+  /* border: 1px solid white; */
+  /* box-shadow: 6px 6px 8px rgb(255, 29, 236); */
+  align-items: start;
+  /* height: 94vh; */
+  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\WhatsApp Image 2024-12-17 at 21.31.08_643ed336.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    justify-content: space-around;
+    background-color: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\flow_black-1024x9101.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 94vh;
+    width: 100%;
+  }
+
+  .hero .left-hero {
+    font-size: 0.9rem !important;
+    line-height: 2.2rem;
+    width: 50%;
+  }
+
+  .hero .right-hero > div {
+    height: 13rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 490px) {
+  .hero .right-hero > div {
+    height: 10rem;
+    width: 12rem;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 345px) {
+  .hero .right-hero > div {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+  }
+
+  .hero .left-hero {
+    font-size: 0.7rem !important;
+    line-height: 2.2rem;
+    width: 50%;
+  }
+}

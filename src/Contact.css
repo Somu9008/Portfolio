@@ -1,0 +1,92 @@
+.contact {
+  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\1006769-free-backtrack-wallpaper-1920x1080.jpg");
+  /* height: 70vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+
+.contact > div {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.53);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.contact > div .left-info {
+  width: 40%;
+  /* border: 1px solid green; */
+}
+
+.contact > div .right-info {
+  /* border: 1px solid yellow; */
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.contact > div .right-info div {
+  /* border: 1px solid magenta; */
+  margin-top: 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact > div .right-info div input,
+textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+
+.contact > div .right-info form button {
+  margin-top: 2rem;
+  padding: 0.7rem 4rem;
+  background-color: rgb(3, 98, 139);
+  border-radius: 0.5rem;
+  color: wheat;
+}
+
+@media (max-width: 1040px) {
+  .contact > div {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .contact > div .right-info {
+    width: 45%;
+  }
+
+  .contact > div .left-info {
+    width: 50%;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 1rem;
+    padding-top: 1rem;
+  }
+  .contact > div .right-info {
+    width: 97%;
+  }
+
+  .contact > div .left-info {
+    width: 94%;
+    font-size: 0.8rem;
+  }
+}

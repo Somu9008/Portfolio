@@ -1,0 +1,79 @@
+.experience {
+  /* border: 1px solid red; */
+  background: url("https://static.vecteezy.com/system/resources/previews/030/620/063/large_2x/navy-blue-minimalist-wallpaper-free-photo.jpg");
+  /* height: 90vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  /* line-height: 2rem; */
+  color: white;
+  font-size: 1.7rem;
+}
+
+.experience p {
+  font-size: 1rem;
+}
+
+.experience h1 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* .experience .frontend { */
+/* border: 1px solid red; */
+/* width: 80%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-size: 1.1rem;
+  margin-top: 1.8rem;
+  background: rgba(255, 255, 255, 0.09);
+  font-family: Arial, Helvetica, sans-serif !important;
+} */
+/* .experience .ui-design { */
+/* border: 1px solid red; */
+/* width: 80%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  background: rgba(255, 255, 255, 0.09);
+  font-family: Arial, Helvetica, sans-serif !important;
+} */
+.experience .backend,
+.dsa,
+.ui-design,
+.frontend {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  background: rgba(255, 255, 255, 0.09);
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+/* .experience { */
+/* border: 1px solid red; */
+/* width: 80%;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  background: rgba(255, 255, 255, 0.09);
+  font-family: Arial, Helvetica, sans-serif !important;
+} */
+
+@media (max-width: 700px) {
+  .experience h1 {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+
+  .experience .backend,
+  .frontend,
+  .ui-design,
+  .dsa {
+    padding: 1rem 2rem;
+    width: 90%;
+  }
+}

@@ -1,0 +1,16 @@
+.projects {
+  /* border: 1px solid red; */
+  padding-top: 2rem;
+  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\navy-blue-minimalist-wallpaper-high-quality-4k-hdr-free-photo.jpg");
+}
+
+.allProjects {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+  /* background-color: rgba(255, 255, 255, 0.244); */
+}

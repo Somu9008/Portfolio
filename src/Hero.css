@@ -1,5 +1,5 @@
 .hero {
-  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\flow_black-1024x9101.webp");
+  background: url("https://res.cloudinary.com/dcqvebhun/image/upload/v1734747817/flow_black-1024x9101_tn1yfs.webp");
   height: 94vh;
   width: 100%;
   background-size: cover;
@@ -51,7 +51,7 @@
   /* box-shadow: 6px 6px 8px rgb(255, 29, 236); */
   align-items: start;
   /* height: 94vh; */
-  background: url("C:\Users\shara\Desktop\Portpolio\Portfolio\src\assets\WhatsApp Image 2024-12-17 at 21.31.08_643ed336.png");
+  background: url("https://res.cloudinary.com/dcqvebhun/image/upload/v1734747824/WhatsApp_Image_2024-12-17_at_21.31.08_643ed336_mxhl4p.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
